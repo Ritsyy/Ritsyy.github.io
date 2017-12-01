@@ -529,3 +529,57 @@ body {
 .resume{
     color: blue
 }
+
+.profile-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    display: box;
+    box-sizing: border-box;
+    margin-right: 16px;
+}
+
+.profile {
+    display: box;
+    box-sizing: border-box;
+}
+
+.imageWrapper {
+    border-radius: 50%;
+}
+
+#about {
+    margin-top: 200px;
+    min-height: 900px;
+}
+
+.portfolio {
+    margin-bottom: 10px;
+}
+
+.project-image-wrapper {
+    padding: 10px;
+    min-height: 210px;
+    /*border: 2px solid #f00;*/
+}
+#home {
+    min-height: 600px;
+}
+
+.network-button {
+    text-transform: none;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: "Grandesign", Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #373737;
+}
+
+.project-wrapper {
+    margin-top: -10px;
+}
+
+.project-wrapper p {
+    font-size: 14px;
+}
